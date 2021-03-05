@@ -23,3 +23,8 @@ Interface ->  ng g interface mi-interface
 Enum      ->  ng g enum mi-enum
 Module    ->  ng g module mi-module
 ```
+
+
+# TODO Append validators by field
+To continue improving this example I will attach how the validators are done in these forms
+
