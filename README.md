@@ -1,5 +1,16 @@
-# Formulario2
+# Reactive Form Example
+* This is just a simple example of how you can use reactive forms in angular
+* Also in this example the forms are nested 
 
+
+# For the installation
+* Download the project in a folder
+* run the following command
+````
+1.-   npm install
+2.-   ng serve --host 0.0.0.0 --port 4200   or
+3.-   npm start --host 0.0.0.0 --port 4200
+````
 
 # Estandar para crear modulos, servicios etc
 ```

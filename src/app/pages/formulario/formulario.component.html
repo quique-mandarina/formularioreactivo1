@@ -24,8 +24,11 @@
             <tr formGroupName="{{ids}}">
               <td><input type="text" value="{{ids}}" readonly></td>
               <td>
-                <button class="btn btn-primary" (click)="openModalLg(contenido)" style="margin-right: .5rem"> add +</button>
-                <button class="btn btn-danger" (click)="removerSolicitud(ids)" > RM -</button>
+                <button class="btn btn-primary" (click)="openModalLg(contenido)" style="margin-right: .5rem">
+                  add +
+                  <span class="badge badge-light">{{ sol['controls'].desglose['controls'].length }}</span>
+                </button>
+                <button class="btn btn-danger" (click)="removerSolicitud(ids)" >RM - </button>
 
               </td>
               <td><input type="text" value="" formControlName="factura"></td>
@@ -57,7 +60,6 @@
                       <td><input type="text" formControlName="subtotal"></td>
                       <td><input type="text" formControlName="centroCosto"></td>
                       <td>
-                        <button class="btn btn-secondary">delete</button>
                         <button type="button" class="btn btn-danger" (click)="removerDesglose(ids, idd)">RM -</button>
                       </td>
                     </tr>

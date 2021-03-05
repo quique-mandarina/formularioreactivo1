@@ -127,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "formulario2"
+    }
+  },
+  "defaultProject": "formulario2",
+  "cli": {
+    "analytics": "e3b2e5fd-6ca7-4c98-9565-00d465ae06e0"
+  }
 }

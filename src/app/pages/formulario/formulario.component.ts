@@ -9,7 +9,7 @@ import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 })
 export class FormularioComponent implements OnInit {
 
-  title = 'Probando un Formulario reactivo por Quique Vera';
+  title = 'Ejemplo de Formulario reactivo por Quique Vera';
   solicitudForm: FormGroup;
 
 
